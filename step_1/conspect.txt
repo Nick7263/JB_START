@@ -1,0 +1,7 @@
+git init
+git remote add origin git@github.com:Nick7263/JB_START.git
+
+git add .
+git status
+git commit -m "commit"
+git push --set-upstream origin master
