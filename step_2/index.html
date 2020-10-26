@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    "use strict"
+    //======== 1 ========
+    let goodsCount = 0;
+    
+    // if(goodsCount>0){
+    //     console.log(`The amount of items ${goodsCount}`);
+    // }
+    // else{
+    //     console.log('The bin is empty.');
+    //     document.write('Cart is empty');
+    // }
+    // goodsCount>0? console.log(`The amount of items ${goodsCount}`): console.log(`Cart is empty`);
+    // console.log(goo)
+    // console.log(goodsCount>0 ? `The amount of items ${goodsCount}`:`Cart is empty`);
+    // ================3 Вложенные условия 3================
+    const good = 'apple';
+
+    // if(good === "banana" || good === "Banana"){
+    //     console.log('banana\'s cost is 50 euros');
+    // } 
+    // else if(good === "mango"){
+    //     console.log('mago\'s cost is 80 euros');
+    // } 
+    // else if(good === 'apple' || good === 'pear'){
+    //     console.log('Apple and pear has the same price');
+    // } 
+    // else{
+    //     console.log('Unknown fruit');
+    // }
+    // ========4 Для поиска или перебора
+    switch(good){
+        case "banana":
+            console.log("banana\'s cost is 50 euros")
+            break;
+        case "mango":
+            console.log("mango\'s cost is 80 euros")
+            break;
+        case "apple":
+        case "pear":
+            console.log("Pear's/Apple's cost is 80 euros/kilo")
+            break;
+        default:
+            console.log('Unknown fruit');
+            break;
+    }
+    </script>
+</body>
+</html>
